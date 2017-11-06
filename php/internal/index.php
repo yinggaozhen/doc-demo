@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * @internal
+ */
 class ClassForInternal
 {
     /**
@@ -10,8 +13,13 @@ class ClassForInternal
 
     }
 
-    public function invoke()
+    protected function invoke()
     {
         $this->internalMethod();
+    }
+
+    public static function instance()
+    {
+        return new ClassForInternal();
     }
 }
