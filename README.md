@@ -26,7 +26,9 @@
 
 [throws](https://github.com/yinggaozhen/annotation/tree/master/php/throws)
 
-[type](https://github.com/yinggaozhen/annotation/tree/master/php/type)
+[var](https://github.com/yinggaozhen/annotation/tree/master/php/var)
+
+[internal](https://github.com/yinggaozhen/annotation/tree/master/php/internal)
 
 [version](https://github.com/yinggaozhen/annotation/tree/master/php/version)
 
