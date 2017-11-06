@@ -10,7 +10,7 @@ class ClassForType {
     }
 }
 
-class Person {
+class InstanceForType {
 
     constructor() {
 
@@ -42,7 +42,7 @@ class Person {
 
 }
 
-const personInstance = new Person();
+const personInstance = new InstanceForType();
 
 // TODO
 personInstance.propertyForAll;

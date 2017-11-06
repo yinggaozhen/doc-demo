@@ -4,7 +4,7 @@
 /**
  * @link http://usejsdoc.org/tags-access.html
  */
-class Person {
+class ClassForAccess {
 
     constructor() {
 
@@ -49,7 +49,7 @@ class Person {
     }
 }
 
-const instance = new Person();
+const instance = new ClassForAccess();
 
 console.log(instance.publicProperty);
 console.log(instance.protectedProperty);

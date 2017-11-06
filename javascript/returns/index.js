@@ -11,7 +11,7 @@ class ClassForReturn {
     }
 }
 
-class Person {
+class InstanceForReturn {
 
     /**
      * @returns {*}
@@ -49,7 +49,7 @@ class Person {
     }
 }
 
-const personInstance = new Person();
+const personInstance = new InstanceForReturn();
 
 // TODO
 personInstance.methodWithReturnAll();

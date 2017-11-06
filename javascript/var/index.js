@@ -20,6 +20,7 @@ class ClassForMember {
     }
 }
 
-/** @var {ClassForMember} PersonVariable */
+/** @member {ClassForMember} PersonVariable */
+const PersonVariable = new ClassForMember;
 PersonVariable.publicMethod();  // right
 PersonVariable.privateMethod(); // warning

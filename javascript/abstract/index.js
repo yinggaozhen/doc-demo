@@ -4,7 +4,7 @@
 /**
  * @abstract
  */
-class Person {
+class ClassForAbstract {
 
     /**
      * @abstract
@@ -13,7 +13,3 @@ class Person {
 
     }
 }
-
-const person = new Person();
-
-person.methodNeedImplements();
