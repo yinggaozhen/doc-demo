@@ -1,4 +1,4 @@
-#php & javascript常用的几个注释
+# php & javascript常用的几个注释
 
 ## php
 
