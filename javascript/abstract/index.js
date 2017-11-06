@@ -9,9 +9,11 @@ class Person {
     /**
      * @abstract
      */
-    test() {
+    methodNeedImplements() {
 
     }
 }
 
 const person = new Person();
+
+person.methodNeedImplements();

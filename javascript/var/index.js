@@ -20,6 +20,6 @@ class ClassForMember {
     }
 }
 
-/** @member {ClassForMember} PersonVariable */
+/** @var {ClassForMember} PersonVariable */
 PersonVariable.publicMethod();  // right
 PersonVariable.privateMethod(); // warning
