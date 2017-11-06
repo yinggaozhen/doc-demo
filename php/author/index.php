@@ -5,5 +5,5 @@
  */
 class ClassForAuthor
 {
-    
+
 }
