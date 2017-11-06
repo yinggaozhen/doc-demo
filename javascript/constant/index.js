@@ -1,7 +1,10 @@
 
 'use strict';
 
-class ClassForA {
+/**
+ * @link http://usejsdoc.org/tags-constant.html
+ */
+class ClassForConstant {
 
     constructor() {
 
@@ -12,6 +15,6 @@ class ClassForA {
     }
 }
 
-const personInstance = new ClassForA();
+const personInstance = new ClassForConstant();
 
 personInstance.constant = 3; // error
