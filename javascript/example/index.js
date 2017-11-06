@@ -15,6 +15,8 @@ class ClassForExample {
      *
      * @example :
      *  实例化新类 ClassForExample.getInstance(false)
+     *
+     * @returns {ClassForExample}
      */
     static getInstance(isSingle = true) {
         if (isSingle) {
