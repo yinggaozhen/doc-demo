@@ -1,0 +1,8 @@
+\.idea
+vendor
+composer\.lock
+*\.out
+*\.swp
+test.php
+bin
+runtime/*
