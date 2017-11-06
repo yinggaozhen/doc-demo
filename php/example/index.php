@@ -31,7 +31,7 @@ class ClassForExample
             return self::$instance;
         }
 
-        return self::$instance;
+        return new self();
     }
 }
 
