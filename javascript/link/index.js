@@ -2,26 +2,29 @@
 'use strict';
 
 /**
- * @link http://usejsdoc.org/tags-link.html
+ * @link http://usejsdoc.org/tags-see.html
  */
-class Person {
+class Image {
 
     /**
-     * @desc 跳转到指定链接或者项目代码地址
-     * @deprecated
-     * @link NewPersonForLink.publicMethod
-     * @link http://www.baidu.com
+     * @desc 构建Icon
+     * @link https://www.baidu.com/img/bd_logo1.png
+     * @return {string}
      */
-    publicMethod() {
+    static buildMainIcon() {
+        return 'https://www.baidu.com/img/bd_logo1.png';
+    }
 
+    /**
+     * @desc 构建主站URL
+     * @link https://www.baidu.com
+     * @return {string}
+     */
+    static buildMaiUrl() {
+        return 'https://www.baidu.com';
     }
 }
 
-class NewPersonForLink {
+Image.buildMainIcon();
 
-    publicMethod() {
-
-    }
-}
-
-(new Person()).publicMethod();
+Image.buildMaiUrl();

@@ -3,6 +3,7 @@
 
 /**
  * @classdesc 例子 - 用单例创建类
+ * @link http://usejsdoc.org/tags-example.html
  */
 class ClassForExample {
 

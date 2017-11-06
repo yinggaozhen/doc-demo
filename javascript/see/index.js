@@ -4,24 +4,24 @@
 /**
  * @link http://usejsdoc.org/tags-see.html
  */
-class Person {
+class ClassForSee {
 
     /**
-     * @desc 跳转到指定链接或者项目代码地址
+     * @desc 以下代码将于下版本移除,请使用方法
+     *
      * @deprecated
-     * @see NewPerson.publicMethod
-     * @see http://www.baidu.com
+     * @see ClassForSee.publicNewMethod
      */
     publicMethod() {
 
     }
-}
 
-class NewPerson {
-
-    publicMethod() {
+    /**
+     * @desc 新方法
+     */
+    publicNewMethod() {
 
     }
 }
 
-(new Person()).publicMethod();
+(new ClassForSee()).publicMethod();
