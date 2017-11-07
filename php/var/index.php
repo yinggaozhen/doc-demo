@@ -23,6 +23,11 @@ class InstanceForType
     public $propertyForArray = null;
 
     /**
+     * @var ClassForType[]
+     */
+    public $propertyForSpecifyArray = null;
+
+    /**
      * @var ClassForType
      */
     public $propertyForClass = null;
@@ -36,7 +41,6 @@ class InstanceForType
 
 $personInstance = new InstanceForType();
 
-// TODO
 strlen($personInstance->propertyForAll);
 // TODO
 strlen($personInstance->propertyForString);
