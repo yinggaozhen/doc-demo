@@ -2,8 +2,13 @@
 'use strict';
 
 /**
+ * @module annotation.javascript
  * @link http://usejsdoc.org/tags-access.html
+ *
+ * @desc
+ *  `@access` : 访问权限,虽然js里对属性类没有访问限制,但是可以通过注释去进行约束.
  */
+
 class ClassForAccess {
 
     constructor() {
@@ -51,12 +56,10 @@ class ClassForAccess {
 
 const instance = new ClassForAccess();
 
-console.log(instance.publicProperty);
-console.log(instance.protectedProperty);
-console.log(instance.privatePerperty);
+console.log(instance.publicProperty);    // ok
+console.log(instance.protectedProperty); // warning
+console.log(instance.privatePerperty);   // warning
 
-instance.publicMethod();
-
-instance.protectedMethod();
-
-instance.privateMethod();
+instance.publicMethod();    // ok
+instance.protectedMethod(); // warning
+instance.privateMethod();   // warning

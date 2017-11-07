@@ -7,7 +7,8 @@
 class PersonForInheritDoc {
 
     /**
-     * @desc 此方法注释被继承
+     * 此方法注释被继承
+     *
      * @param {String} stringVariable
      * @param {Array} ArrayVariable
      */
@@ -16,7 +17,8 @@ class PersonForInheritDoc {
     }
 
     /**
-     * @desc 此方法注释不被继承
+     * 此方法注释不被继承
+     *
      * @param {String} stringVariable
      * @param {Array} ArrayVariable
      */

@@ -7,7 +7,8 @@
 class Image {
 
     /**
-     * @desc 构建Icon
+     * 构建Icon
+     *
      * @link https://www.baidu.com/img/bd_logo1.png
      * @return {string}
      */
@@ -16,7 +17,8 @@ class Image {
     }
 
     /**
-     * @desc 构建主站URL
+     * 构建主站URL
+     *
      * @link https://www.baidu.com
      * @return {string}
      */

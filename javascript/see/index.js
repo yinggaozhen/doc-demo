@@ -7,7 +7,7 @@
 class ClassForSee {
 
     /**
-     * @desc 以下代码将于下版本移除,请使用方法
+     * 以下代码将于下版本移除,请使用方法
      *
      * @deprecated
      * @see ClassForSee.publicNewMethod
@@ -17,7 +17,7 @@ class ClassForSee {
     }
 
     /**
-     * @desc 新方法
+     * 新方法
      */
     publicNewMethod() {
 
