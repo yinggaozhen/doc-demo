@@ -39,7 +39,7 @@ function FunctionForClass() {
  * @memberOf FunctionForClass
  * @return void
  */
-function FunctionForStaticMethod() {
+function functionForStaticMethod() {
 }
 
 /**
@@ -48,10 +48,10 @@ function FunctionForStaticMethod() {
  * @memberOf FunctionForClass
  * @return void
  */
-function FunctionForMethod() {
+function functionForMethod() {
 
 }
 
-FunctionForClass.prototype.FunctionForMethod = FunctionForMethod;
+FunctionForClass.prototype.functionForMethod = functionForMethod;
 // static function
-FunctionForClass.FunctionForStaticMethod = FunctionForStaticMethod;
+FunctionForClass.functionForStaticMethod = functionForStaticMethod;

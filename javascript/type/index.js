@@ -28,26 +28,31 @@ class InstanceForType {
     constructor() {
 
         /**
+         * @public
          * @type {*}
          */
         this.propertyForAll = null;
 
         /**
+         * @public
          * @type {String}
          */
         this.propertyForString = null;
 
         /**
+         * @public
          * @type {Array}
          */
         this.propertyForArray = null;
 
         /**
+         * @public
          * @type {ClassForType}
          */
         this.propertyForClass = null;
 
         /**
+         * @public
          * @type {ClassForType|Array}
          */
         this.propertyForMixed = null;
