@@ -3,7 +3,11 @@
 
 /**
  * @link http://usejsdoc.org/tags-see.html
+ *
+ * @desc
+ *  `@link` : 表示一个链接.
  */
+
 class Image {
 
     /**
@@ -22,11 +26,11 @@ class Image {
      * @link https://www.baidu.com
      * @return {string}
      */
-    static buildMaiUrl() {
+    static buildMainUrl() {
         return 'https://www.baidu.com';
     }
 }
 
 Image.buildMainIcon();
 
-Image.buildMaiUrl();
+Image.buildMainUrl();

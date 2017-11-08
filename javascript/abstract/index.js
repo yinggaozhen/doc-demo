@@ -2,8 +2,6 @@
 'use strict';
 
 /**
- * @module annotation.javascript
- *
  * @desc
  *  `@abstract` : 表示一个抽象类或者方法,需要具体去实现.
  */

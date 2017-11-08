@@ -2,7 +2,6 @@
 'use strict';
 
 /**
- * @module annotation.javascript
  * @link http://usejsdoc.org/tags-constant.html
  *
  * @desc

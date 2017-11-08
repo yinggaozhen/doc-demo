@@ -27,8 +27,11 @@ class ClassForThisTwo {
 }
 
 /**
+ * 表示此函数的上下文为 : ClassForThisOne
+ * 加入{@this}，则IDE认为`replaceContext`只属于ClassForThisOne，能让代码更加清晰
+ *
  * @function
- * @this {ClassForThisOne|ClassForThisTwo}
+ * @this {ClassForThisOne}
  */
 function FunctionForThis() {
     this.replaceContext();

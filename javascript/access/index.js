@@ -2,7 +2,6 @@
 'use strict';
 
 /**
- * @module annotation.javascript
  * @link http://usejsdoc.org/tags-access.html
  *
  * @desc
@@ -14,20 +13,20 @@ class ClassForAccess {
     constructor() {
 
         /**
-         * @public
          * @type {null}
+         * @public
          */
         this.publicProperty    = null;
 
         /**
-         * @protected
          * @type {null}
+         * @protected
          */
         this.protectedProperty = null;
 
         /**
-         * @private
          * @type {null}
+         * @private
          */
         this.privatePerperty   = null;
     }

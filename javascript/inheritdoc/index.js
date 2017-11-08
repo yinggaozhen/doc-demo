@@ -3,7 +3,10 @@
 
 /**
  * @link http://usejsdoc.org/tags-inheritdoc.html
+ * @desc
+ *  `@inheritdoc` : 文档继承
  */
+
 class PersonForInheritDoc {
 
     /**
@@ -41,5 +44,6 @@ class Student extends PersonForInheritDoc {
     }
 }
 
-(new Student()).methodWithInherit([], '');
-(new Student()).methodWithoutInherit([], '');
+(new Student()).methodWithInherit([], ''); // 文档继承之后，传入错误参数会警告
+
+(new Student()).methodWithoutInherit([], ''); // 文档没有被继承，即便传入错误参数也不会警告

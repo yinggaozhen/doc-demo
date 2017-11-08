@@ -2,9 +2,13 @@
 'use strict';
 
 /**
- * @classdesc 例子 - 用单例创建类
+ * 例子 - 用单例创建类
+ *
  * @link http://usejsdoc.org/tags-example.html
+ * @desc
+ *  `@example` : 我给你举一个栗子^_^
  */
+
 class ClassForExample {
 
     /**

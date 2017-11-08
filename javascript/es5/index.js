@@ -2,12 +2,11 @@
 'use strict';
 
 /**
- * @module module.javascript.es5
- *
  * @desc
  *  补充一些ES5的常用代码注释
  *  主要补充
  *      `@class`          -- 表示此函数为class
+ *      `@function`       -- 表示此函数只是一个方法，区别于class
  *      `@constructor`    -- 表示此函数为构造函数
  *      `@method`         -- 表示此函数为成员方法
  *      `@memberOf`       -- 表示此函数属于具体哪个class
@@ -23,6 +22,11 @@
  * @constructor
  */
 function FunctionForClass() {
+
+    /**
+     * @public
+     * @type {number}
+     */
     this.age = 18;
 }
 
