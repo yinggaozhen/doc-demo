@@ -1,9 +1,11 @@
 DocDemo
 =======
 
+<!-- 
 * [English version](./README_EN.md)
+-->
 
-注释标签范例，教你如何写一个不错的注释，目前包含了PHP/Javascript(ES5/ES6).
+注释标签范例，助你能更好理解每个注释标签的作用，目前包含了PHP/Javascript(ES5/ES6).
 
 相关标签
 ---
