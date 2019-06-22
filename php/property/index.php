@@ -1,27 +1,29 @@
 <?php
 
 /**
- * @property string name
- * @property int    age
+ * <p>"@property" : 当类中包含魔术方法__get/__set时，可以通过此标签定义名称</p>
+ * <p>类型可查看README.md</p>
+ *
+ * <b>此标签建议在PHPStorm中打开此演示文档，可以看到具体的标签效果</b>
+ *
+ * @property int    $intVar    数字
+ * @property string $stringVar 字符串
+ * @property mixed  $any       任意类型返回值
  */
-class ClassForProperty
+class TagProperty
 {
-    /**
-     * @var string 测试名称
-     */
-    private $_name = 'jack';
-
-    /**
-     * @var int 测试年龄
-     */
-    private $_age  = 18;
-
     public function __get($name)
     {
-        $property = "_{$name}";
+    }
 
-        return $this->$property;
+    public function __set($name, $value)
+    {
     }
 }
 
-echo (new ClassForProperty)->name, (new ClassForProperty)->age;
+$tag = new TagProperty();
+
+// PASS.
+$tag->any = 2;
+// WARN.hello未在@property中定义
+$tag->hello = 2;
