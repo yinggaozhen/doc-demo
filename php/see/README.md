@@ -15,7 +15,7 @@
 
 该标签可以有两个跳转选项
 
-- `@外部跳转链接` : 必须是满足[RFC2396](https://www.ietf.org/rfc/rfc2396.txt)的跳转链接,例如`http://github.com/yinggaozhen`
+- `@外部跳转链接` : 必须是满足[RFC2396](https://www.ietf.org/rfc/rfc2396.txt)的跳转链接,例如[http://github.com/yinggaozhen](http://github.com/yinggaozhen)
 - `@内部程序链接` : 可以跳转到制定的类/方法/变量，如class::method
 
 和@link的区别
