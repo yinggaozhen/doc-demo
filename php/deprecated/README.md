@@ -18,4 +18,4 @@
 
 标签效果
 =======
-![demo.jpg](./demo.jpg)
+![demo.jpg](./docs/demo.jpg)
