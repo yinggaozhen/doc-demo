@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @author GaozhenYing(yinggaozhen@hotmail.com)
+ * <p>"@author" : 当前文件的作者</p>
+ *
+ * @author 应杲臻 <yinggaozhen@hotmail.com>
  */
-class ClassForAuthor
+class TagAuthor
 {
-
 }
