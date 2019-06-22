@@ -17,7 +17,18 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 
 ## 阅读姿势
 
-### 使用Jetbrains全家桶阅读**(个人推荐)**
+你可以采用以下两种方法查阅
+
+### 安装浏览器扩展octotree
+
+需要在浏览器上安装对应的github阅读插件**octotree**，安装成功之后重新刷新github工程即可.
+
+**插件下载地址**
+
+- chrome : [https://chrome.google.com/webstore/detail/octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+- firefox : [https://addons.mozilla.org/en-US/firefox/addon/octotree/](https://addons.mozilla.org/en-US/firefox/addon/octotree/)
+
+### 使用Jetbrains全家桶阅读
 
 所谓[Jetbrains](https://www.jetbrains.com/)全家桶，即`PHP -> PhpStorm`， `Javascript -> (PhpStorm/WebStorm)`.
 
@@ -25,16 +36,7 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 
 当然如果你觉得**Jetbrains**全家桶过于臃肿，也没关系，我们为每个标签都制作了详细的**图文信息**，放置于每个标签下的README.
 
-(注释标签只是各个语言各自约定一套通用规则，对于IDE是没有要求的)
-
-### 浏览器octotree阅读
-
-需要在浏览器上安装对应的github阅读插件**octotree**，安装成功之后重新刷新github工程即可.
-
-**插件下载地址**
-
-- chrome : [https://chrome.google.com/webstore/detail/octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
-- firefox : [https://addons.mozilla.org/en-US/firefox/addon/octotree/](https://addons.mozilla.org/en-US/firefox/addon/octotree/) 
+*毕竟注释标签只是各个语言各自约定一套通用规则，无关乎于IDE* 
 
 ## 相关参考资料
 
