@@ -24,13 +24,14 @@
 |boolean/bool | false/true |
 |float/double | number/浮点数 |
 |object | 对象实例|
+|specifiedType | 指定类 |
 |mixed | 任意类型|
-|array/SpecifiedType[] | 数组，可以指定成指定类型的数组|
+|array/specifiedType[] | 数组，可以指定成指定类型的数组|
 |resource | 文件资源类型|
 |void | 无返回值|
 |null | -|
-|callable | 可执行的闭包函数|
-|function | 闭包方法，但是不一定能执行|
+|callable | 可执行的回调函数|
+|function | 不一定能执行的方法|
 |self/$this | 当前实例|
 
 标签效果
