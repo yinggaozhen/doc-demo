@@ -19,7 +19,7 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 
 你可以采用以下两种方法查阅
 
-### 安装浏览器扩展octotree
+### 1. 安装浏览器扩展octotree
 
 需要在浏览器上安装对应的github阅读插件**octotree**，安装成功之后重新刷新github工程即可.
 
@@ -28,7 +28,7 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 - chrome : [https://chrome.google.com/webstore/detail/octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 - firefox : [https://addons.mozilla.org/en-US/firefox/addon/octotree/](https://addons.mozilla.org/en-US/firefox/addon/octotree/)
 
-### 使用Jetbrains全家桶阅读
+### 2. 使用Jetbrains全家桶阅读
 
 所谓[Jetbrains](https://www.jetbrains.com/)全家桶，即`PHP -> PhpStorm`， `Javascript -> (PhpStorm/WebStorm)`.
 
