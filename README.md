@@ -6,6 +6,8 @@
 
 注释标签范例，每个标签我都制作了**相关图文信息**，意在能帮你能更好理解每个注释标签的作用.目前包含了PHP/Javascript(ES5/ES6).
 
+**你离漂亮的代码，就差一个标签^_^**
+
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/yinggaozhen/doc-demo/blob/master/LICENSE)
 
 :heart::heart::heart:标签会不定期持续更新，欢迎各位**fork & star**:heart::heart::heart:
@@ -25,7 +27,7 @@
 
 ## 阅读姿势
 
-### 使用Jetbrains全家桶阅读**(个人推荐)**
+### 使用Jetbrains全家桶阅读(个人推荐)
 
 所谓[Jetbrains](https://www.jetbrains.com/)全家桶，即`PHP -> PhpStorm`， `Javascript -> (PhpStorm/WebStorm)`.
 
@@ -33,7 +35,7 @@
 
 当然如果你觉得**Jetbrains**全家桶过于臃肿，也没关系，我们为每个标签都制作了详细的**图文信息**，放置于每个标签下的README.
 
-(注释标签只是各个语言各自约定一套通用规则，对于IDE是没有要求的)
+*毕竟注释标签只是各个语言各自约定一套通用规则，无关乎于IDE*
 
 ### 浏览器octotree阅读
 
