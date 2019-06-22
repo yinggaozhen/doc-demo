@@ -1,16 +1,12 @@
-# DocDemo
+# PHP Doc Demo 
 
-<!-- 
-* [English version](./README_EN.md)
--->
-
-注释标签范例，每个标签我都制作了**相关图文信息**，意在能帮你能更好理解每个注释标签的作用.目前包含了PHP/Javascript(ES5/ES6).
+PHP注释标签范例，每个标签我都制作了**相关图文信息**，助你能更好理解每个注释标签的作用
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/yinggaozhen/doc-demo/blob/master/LICENSE)
 
 :heart::heart::heart:标签会不定期持续更新，欢迎各位**fork & star**:heart::heart::heart:
 
-## [PHP相关注释标签](https://github.com/yinggaozhen/doc-demo/tree/master/php)
+## PHP相关标签
 
 ||||||
 |---|---|---|---|---|
@@ -18,10 +14,6 @@
 |[method](./php/method)|mixin|[param](./php/param)|[property](./php/property)|[return](./php/return)|
 |[see](./php/see)|[throws](./php/throws)|[var](./php/var)|[internal](./php/internal)|version|
 | copyright | license| since |package |todo |
-
-## [Javascript相关注释标签](https://github.com/yinggaozhen/doc-demo/tree/master/javascript)
-
-施工中...
 
 ## 阅读姿势
 
@@ -47,9 +39,7 @@
 ## 相关参考资料
 
 - PHPDoc : [https://docs.phpdoc.org/](https://docs.phpdoc.org/)
- 
+
 ## 特别感谢
 
-感谢以下同学给出的宝贵意见与指导
-
-- @popo1h
+非常感谢@popo1h同学给出的宝贵意见与指导
