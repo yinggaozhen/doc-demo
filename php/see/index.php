@@ -10,23 +10,20 @@ class TagSee
     /**
      * <1>.引导外部跳转链接
      *
-     * @see http://test.com/logo.png
+     * @see https://www.baidu.com
+     * @return string
      */
-    public static function buildLogoUrl()
+    public static function buildBaiduUrl()
     {
-        return 'http://test.com/logo.png';
+        return 'https://www.baidu.com';
     }
 
     /**
      * <2>.引导到内部程序
      *
-     * @see TagSee::buildLogoUrl
-     *
-     * @param callable $method
-     * @return mixed
+     * @see TagSee::buildBaiduUrl
      */
-    public static function logoProxy($method)
+    public static function urlProxy()
     {
-        return $method();
     }
 }
