@@ -8,6 +8,15 @@
 class TagInheritdoc
 {
     /**
+     * <1>.此方法注释被继承
+     *
+     * @param array $array
+     */
+    public function methodWithInherit($array)
+    {
+    }
+
+    /**
      * <2>.此方法注释被继承，且注释被重写
      *
      * @param string $string
@@ -21,6 +30,13 @@ class TagInheritdoc
 class TagInheritdocImpl extends TagInheritdoc
 {
     /**
+     * @inheritDoc
+     */
+    public function methodWithInherit($array)
+    {
+    }
+
+    /**
      * 注释被继承后，重写mixed字段类型为int
      *
      * @inheritDoc
@@ -30,6 +46,11 @@ class TagInheritdocImpl extends TagInheritdoc
     {
     }
 }
+
+// PASS.父类定义文档入参类型为array,继承之后所有注释也都被生效
+(new TagInheritdocImpl())->methodWithInherit([]);
+// WARN.父类文档注释定义入参为array,但是传入是数字
+(new TagInheritdocImpl())->methodWithInherit(123456);
 
 // PASS.重写之后正确的入参
 (new TagInheritdocImpl())->methodWithOverride('', 123);
