@@ -12,7 +12,7 @@ class TagDeprecated
      *
      * @deprecated
      */
-    static public function willBeDeprecated()
+    public static function willBeDeprecated()
     {
     }
 
@@ -21,7 +21,7 @@ class TagDeprecated
      *
      * @deprecated 1.0.0
      */
-    static public function willBeDeprecatedNextVersion()
+    public static function willBeDeprecatedNextVersion()
     {
     }
 
@@ -31,14 +31,14 @@ class TagDeprecated
      * @see TagDeprecated::apiV2()
      * @deprecated 3.0.0 此方法以被废弃，请使用最新方法v2
      */
-    static public function apiV1()
+    public static function apiV1()
     {
     }
 
     /**
      * V1已经过时了，我就是最靓的V2方法
      */
-    static public function apiV2()
+    public static function apiV2()
     {
     }
 }

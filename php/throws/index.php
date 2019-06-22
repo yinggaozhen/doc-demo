@@ -1,32 +1,28 @@
 <?php
 
-class BeiException extends Exception {}
-class HuException extends Exception {}
-
-class ClassForThrows
+/**
+ * <p>"@throws" : 抛出一个异常，告诉调用方需要做好处理异常相关工作</p>
+ *
+ * <b>此标签建议在PHPStorm中打开此演示文档，可以看到具体的标签效果</b>
+ */
+class TagThrows
 {
     /**
-     * @throws BeiException
+     * 整数相除
+     *
+     * @param integer $a
+     * @param integer $b
+     * @return float|int
+     * @throws \Exception 被除数不能为0
      */
-    public static function throwBeiException()
+    public static function div($a, $b)
     {
-        throw new BeiException();
-    }
-
-    /**
-     * @param boolean $type
-     * @throws BeiException|HuException
-     */
-    public static function throwMixedException($type)
-    {
-        if ($type) {
-            throw new BeiException();
+        if (empty($b)) {
+            throw new Exception('Division by zero');
         }
 
-        throw new HuException();
+        return $a / $b;
     }
 }
 
-ClassForThrows::throwBeiException();
-
-ClassForThrows::throwMixedException(true);
+echo TagThrows::div(1, 2);

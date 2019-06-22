@@ -13,7 +13,7 @@ class TagParam
      * @param string $piece 碎片
      * @return string[]
      */
-    static public function join($collection, $piece)
+    public static function join($collection, $piece)
     {
         $collection[] = $piece;
 

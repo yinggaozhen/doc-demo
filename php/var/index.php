@@ -11,9 +11,9 @@ class TagVar
     /**
      * <1>.第一种使用方法，只定义类型，通常用于类成员变量中
      *
-     * @var array 标签数组
+     * @var array|null 标签数组
      */
-    public $tags;
+    public $tags = null;
 }
 
 $tag = new TagVar();
