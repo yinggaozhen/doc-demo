@@ -15,7 +15,7 @@
 
 该标签只有1个跳转选项
 
-- `@外部跳转链接` : 必须是满足[RFC2396](https://www.ietf.org/rfc/rfc2396.txt)的跳转链接,例如`http://github.com/yinggaozhen`
+- `@外部跳转链接` : 必须是满足[RFC2396](https://www.ietf.org/rfc/rfc2396.txt)的跳转链接,例如[http://github.com/yinggaozhen](http://github.com/yinggaozhen)
 
 和@see的区别
 =======
