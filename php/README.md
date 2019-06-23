@@ -10,9 +10,9 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 
 ||||||
 |---|---|---|---|---|
-|[@author](./php/author)|[@deprecated](./php/deprecated)|@example|[@inheritdoc](./php/inheritdoc)|[@link](./php/link)|
-|[@method](./php/method)|@mixin|[@param](./php/param)|[@property](./php/property)|[@return](./php/return)|
-|[@see](./php/see)|[@throws](./php/throws)|[@var](./php/var)|[@internal](./php/internal)|@version|
+|[@author](./author)|[@deprecated](./deprecated)|@example|[@inheritdoc](./inheritdoc)|[@link](./link)|
+|[@method](./method)|@mixin|[@param](./param)|[@property](./property)|[@return](./return)|
+|[@see](./see)|[@throws](./throws)|[@var](./var)|[@internal](./internal)|@version|
 | @copyright | @license| @since |@package |@todo |
 
 ## 阅读姿势
