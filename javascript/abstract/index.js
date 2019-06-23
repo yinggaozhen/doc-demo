@@ -1,31 +1,9 @@
-
-'use strict';
-
 /**
- * @desc
- *  `@abstract` : 表示一个抽象类或者方法,需要具体去实现.
+ * "@abstract" : 被此标记标识的成员方法，必须在继承成员的对象中实现。
  */
-
-/**
- * 一个抽象类
- *
- * @abstract
- */
-class ClassForAbstract {
-
+class TagAbstract {
     /**
-     * 如果构造函数不被重写,则将抛出异常
-     *
-     * @param {Boolean} override
-     */
-    constructor(override = false) {
-        if (!override) {
-            throw new Error('You have to implement the construct methods');
-        }
-    }
-
-    /**
-     * 一个抽象方法
+     * 一个抽象方法，需要待实现
      *
      * @abstract
      */
@@ -33,3 +11,10 @@ class ClassForAbstract {
         throw new Error('You have to implement the this methods')
     }
 }
+
+class TagAbstractSon extends TagAbstract {
+}
+
+
+
+new TagAbstractSon();
