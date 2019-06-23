@@ -10,10 +10,10 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 
 ||||||
 |---|---|---|---|---|
-|[author](./php/author)|[deprecated](./php/deprecated)|example|[inheritdoc](./php/inheritdoc)|[link](./php/link)|
-|[method](./php/method)|mixin|[param](./php/param)|[property](./php/property)|[return](./php/return)|
-|[see](./php/see)|[throws](./php/throws)|[var](./php/var)|[internal](./php/internal)|version|
-| copyright | license| since |package |todo |
+|[@author](./php/author)|[@deprecated](./php/deprecated)|@example|[@inheritdoc](./php/inheritdoc)|[@link](./php/link)|
+|[@method](./php/method)|@mixin|[@param](./php/param)|[@property](./php/property)|[@return](./php/return)|
+|[@see](./php/see)|[@throws](./php/throws)|[@var](./php/var)|[@internal](./php/internal)|@version|
+| @copyright | @license| @since |@package |@todo |
 
 ## 阅读姿势
 
@@ -44,4 +44,6 @@ PHP注释标签范例，每个标签我都制作了**相关图文信息**，助�
 
 ## 特别感谢
 
-非常感谢@popo1h同学给出的宝贵意见与指导
+感谢以下同学给出的宝贵意见与指导
+
+- @popo1h
