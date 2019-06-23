@@ -16,10 +16,10 @@
 
 ||||||
 |---|---|---|---|---|
-|[author](./php/author)|[deprecated](./php/deprecated)|example|[inheritdoc](./php/inheritdoc)|[link](./php/link)|
-|[method](./php/method)|mixin|[param](./php/param)|[property](./php/property)|[return](./php/return)|
-|[see](./php/see)|[throws](./php/throws)|[var](./php/var)|[internal](./php/internal)|version|
-| copyright | license| since |package |todo |
+|[@author](./php/author)|[@deprecated](./php/deprecated)|@example|[@inheritdoc](./php/inheritdoc)|[@link](./php/link)|
+|[@method](./php/method)|@mixin|[@param](./php/param)|[@property](./php/property)|[@return](./php/return)|
+|[@see](./php/see)|[@throws](./php/throws)|[@var](./php/var)|[@internal](./php/internal)|@version|
+| @copyright | @license| @since |@package |@todo |
 
 ## [Javascript相关注释标签](https://github.com/yinggaozhen/doc-demo/tree/master/javascript)
 
@@ -38,7 +38,7 @@
 - chrome : [https://chrome.google.com/webstore/detail/octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 - firefox : [https://addons.mozilla.org/en-US/firefox/addon/octotree/](https://addons.mozilla.org/en-US/firefox/addon/octotree/)
 
-### 2. 使用Jetbrains全家桶阅读
+### 2. Jetbrains全家桶
 
 所谓[Jetbrains](https://www.jetbrains.com/)全家桶，即`PHP -> PhpStorm`， `Javascript -> (PhpStorm/WebStorm)`.
 
