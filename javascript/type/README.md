@@ -30,7 +30,7 @@
 
 ## type类型
 
-<table border="1px" bordercolor="black" width="80%">
+<table>
     <tr>
         <th>类型名</th>
         <th>语法示例</th>
