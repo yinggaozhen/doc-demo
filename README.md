@@ -51,6 +51,7 @@
 ## 相关参考资料
 
 - PHPDoc : [https://docs.phpdoc.org/](https://docs.phpdoc.org/)
+- JsDoc : [http://www.dba.cn/book/jsdoc/](http://www.dba.cn/book/jsdoc/)
  
 ## 特别感谢
 

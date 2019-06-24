@@ -12,6 +12,11 @@
 
 > `@member [<type>] [<name>]`
 
+## type类型
+
+// TODO 详见@type
+
+
 ## 标签效果
 
 ![demo.jpg](./docs/demo.png)
