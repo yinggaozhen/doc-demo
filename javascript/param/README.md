@@ -82,4 +82,10 @@
 
 ## 标签效果
 
-![demo.jpg](./docs/demo.png)
+### 函数入参定义类型
+
+![demo.jpg](./docs/demo1.png)
+
+### 函数的入参是一个对象，可以定义入参对象属性类型
+
+![demo.jpg](./docs/demo2.png)

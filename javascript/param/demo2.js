@@ -7,9 +7,6 @@
  * @param {number} people.age  - 年龄
  */
 function TagParam(people) {
-    // TODO 下拉
-    // people.
-
     // PASS
     Math.abs(people.age);
 

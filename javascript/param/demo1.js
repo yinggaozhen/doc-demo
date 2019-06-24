@@ -7,13 +7,13 @@
  * @param {Array.<string>} arrayVar  - 字符串数组
  */
 function TagParam(stringVar, arrayVar) {
-    // FIXME. @param定义arrayVar是字符串类型数组，所以在push一个数字类型的变量时，会产生一个告警
+    // FIXME. @param定义arrayVar是{Array.<string>}，所以在push一个{number}类型的变量时，因<类型不符>会产生一个告警
     arrayVar.push(123);
 }
 
 // PASS.
 TagParam("123456", []);
 
-// FIXME. @param定义stringVar类型是字符串,而实际入参是数字,所以会产生一个告警
+// FIXME. @param定义stringVar类型是{string},而实际入参是{number},因为会产生一个告警
 TagParam(123456, ["123456", "456789"]);
 
