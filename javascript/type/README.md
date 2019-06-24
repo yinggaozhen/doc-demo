@@ -80,4 +80,15 @@
 
 ## 标签效果
 
-![demo.jpg](./docs/demo.png)
+### @type标记成员变量
+![demo.jpg](./docs/demo1.png)
+
+### @type标记普通变量
+![demo.jpg](./docs/demo3.png)
+
+### IDE自动填充标记变量
+
+**合理的通过@type标记，可以让IDE对标记的变量类型自动识别**
+**例如识别到一个类，IDE会自动填充类的成员方法.可以有效的提升开发效率**
+
+![demo.jpg](./docs/demo2.png)

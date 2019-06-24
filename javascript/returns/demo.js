@@ -1,15 +1,14 @@
 /**
- * @description 两数相加
- * @param {Array.<number>} array
- * @param {number} number
- * @returns {Array.<number>}
+ * @description 字符串拼接
+ * @param {String} string1
+ * @param {String} string2
+ * @returns {String}
  */
-function push(array, number) {
-    // FIXME. 由@returns标记返回值为{Array.<number>},而实际返回值为string,所以会产生一个告警
-    return "NAN";
+function concat(string1, string2) {
+    // FIXME. 由@returns标记返回值为string,而实际返回值为number,所以<类型不符>会产生一个告警
+    return 123;
 }
 
-let array = push([1, 2, 3], 4);
+// FIXME. 由@returns标记返回值为string,而Math.abs入参要求为number,所以<类型不符>会产生一个告警
+Math.abs("xxx");
 
-// FIXME. 由@returns标记返回值为{Array.<number>},而实际push值为string,所以会产生一个告警
-array.push("5");

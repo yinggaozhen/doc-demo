@@ -16,9 +16,6 @@ class HelloType {
 /** @type {HelloType} tag */
 let tag;
 
-// TODO 需要一个下拉
-// tag.;
-
 // PASS. {HelloType}里包含了成员方法hello
 tag.hello();
 

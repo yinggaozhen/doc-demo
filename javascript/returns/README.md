@@ -79,4 +79,6 @@
 
 ## 标签效果
 
-![demo.jpg](./docs/demo.png)
+![demo.jpg](./docs/demo1.png)
+
+![demo.jpg](./docs/demo2.png)
