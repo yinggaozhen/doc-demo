@@ -44,3 +44,9 @@ Javascript注释标签范例，每个标签我都制作了**相关图文信息**
 ## 相关参考资料
 
 - JsDoc : [http://www.dba.cn/book/jsdoc/](http://www.dba.cn/book/jsdoc/)
+
+## 特别感谢
+
+感谢以下同学给出的宝贵意见与指导
+
+- @czewail
