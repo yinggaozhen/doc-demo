@@ -25,7 +25,7 @@
 
 ||||||
 |---|---|---|---|---|
-|[@abstract](./javascript/abstract)|[@access](./javascript/access)|[@constructor](./javascript/constructor)|[@default](./javascript/default)|[@deprecated](./javascript/deprecated)|
+|[@abstract](./javascript/abstract)|@access|[@constructor](./javascript/constructor)|[@default](./javascript/default)|[@deprecated](./javascript/deprecated)|
 |@example|[@inheritdoc](./javascript/inheritdoc)|@link|[@member](./javascript/member)|[@param](./javascript/param)|
 |[@returns](./javascript/returns)|[@see](./javascript/see)|@this|[@throws](./javascript/throws)|[@type](./javascript/type)|
 | @copyright | @license| @since |@author |@todo |

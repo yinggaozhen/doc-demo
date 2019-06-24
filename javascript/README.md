@@ -10,7 +10,7 @@ Javascript注释标签范例，每个标签我都制作了**相关图文信息**
 
 ||||||
 |---|---|---|---|---|
-|[@abstract](./abstract)|[@access](./access)|[@constructor](./constructor)|[@default](./default)|[@deprecated](./deprecated)|
+|[@abstract](./abstract)|@access|[@constructor](./constructor)|[@default](./default)|[@deprecated](./deprecated)|
 |@example|[@inheritdoc](./inheritdoc)|@link|[@member](./member)|[@param](./param)|
 |[@returns](./returns)|[@see](./see)|@this|[@throws](./throws)|[@type](./type)|
 | @copyright | @license| @since |@author |@todo |
