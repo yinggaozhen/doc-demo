@@ -30,21 +30,21 @@
 
 ## type类型
 
-<table border="1px" bordercolor="black" width="80%" height="100px">
-    <tr align="center">
-        <td>类型名</td>
-        <td>语法示例</td>
-        <td>描述</td>
+<table border="1px" bordercolor="black" width="80%">
+    <tr>
+        <th>类型名</th>
+        <th>语法示例</th>
+        <th>描述</th>
     </tr>
     <tr>
-        <td>Symbol name (name expression)</td>
+        <td>Symbol name</td>
         <td>{boolean} <br> {myNamespace.MyClass}</td>
         <td>指定符号的名称。 如果标识符已经被文档化，JSDoc将创建一个链接到该标识符的文档</td>
     </tr>
     <tr>
-        <td>Multiple types (type union)</td>
+        <td>Multiple types</td>
         <td>{number|boolean} <br> 表示数字或布尔</td>
-        <td>这意味着值可能是几种类型中的一种，并用`|`分隔类型的完整列表。</td>
+        <td>这意味着值可能是几种类型中的一种，并用<b>|</b>分隔类型的完整列表。</td>
     </tr>
     <tr>
         <td>Arrays</td>
